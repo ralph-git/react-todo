@@ -1,0 +1,54 @@
+h1 {
+
+    text-align: center 
+}
+
+body{
+
+    background-color: whitesmoke;
+}
+
+.todo-list {
+    
+    text-align: center; /* center items horizontally */
+    vertical-align: middle; /* center items vertically */
+    background-color: white;
+    width: 80%; 
+    height: 80%;
+    margin-left: auto; /*center via width */
+    margin-right: auto;
+    margin-top: auto; 
+    margin-bottom: auto;
+    padding-bottom: 300px; /* white space below */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.itemComponent{
+    border-bottom: 1px solid #c0c0c0;
+    
+    width: 85%;
+    margin-left: auto; /*center via width */
+    margin-right: auto;
+    padding: 20px 0px 20px 0px; /* space below each item */
+}
+
+p {
+    font-weight: bold;
+}
+
+.input-box {
+
+    width: 250px;
+    height: 40px;
+    
+}
+
+.add-todo {
+
+    border-bottom: 3px solid #c0c0c0;
+    padding-bottom: 30px;
+    width: 85%;
+    margin-left: auto; /*center via width */
+    margin-right: auto;
+    
+}
