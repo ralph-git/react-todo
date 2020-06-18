@@ -8,10 +8,9 @@ function List({index, task, completed, completedTodo, removedTodo}) {
     
     return (
         <div className = 'itemComponent'>
-           <input type = 'checkbox' onChange= {
-               () => completedTodo(index)}  />
+           <input type = 'checkbox' />
             <p>{task}</p>
-            <button className = "delete"onClick = 
+            <button className = "delete" onClick = 
             {
                () => removedTodo(index)}>
                    Delete

@@ -15,13 +15,14 @@ function App() {
   
  }
 
- const completedTodo = index => {
-   const NewTodos = [...todos]
-   NewTodos(index).completed = !NewTodos(index).completed;
+              // FOR CHANGING COMPLETE STATE IN A CHECKBOX, BROKEN
+//  const completedTodo = index => {
+//    const NewTodos = [...todos]
+//    NewTodos(index).completed = !NewTodos(index).completed;
   
-   console.log('True')
-   setTodos(NewTodos);
- }
+//    console.log('True')
+//    setTodos(NewTodos);
+//  }
 
  const removedTodo = index => {
   const NewTodos = [...todos]
@@ -44,7 +45,6 @@ function App() {
     task = {item.task} 
     completed = {item.completed}
     addTodo = {item.addTodo}
-    completedTodo = {completedTodo}
     removedTodo = {removedTodo}
     />)}
     
